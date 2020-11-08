@@ -106,14 +106,14 @@ nav ul li a {
 	grid-area: 1 / 3;
 }
 
-#CookieClassSolar{
+#CookieStatement{
 	background-color: FA0;
-	text-align: right;
 	position: fixed;
+	text-align: right;
 	opacity: 0.5;
 }
 
-footer{
+#Copyright{
 	margin-top: 30px;
 	padding-bottom: 10px;
 }
