@@ -52,34 +52,41 @@ nav ul li a {
 
 #article1{
 	grid-area: 1 / 2 / span 2 / span 1;
+	background-color: #E3E3E3;
 }
 
 #article2{
 	grid-area: 1 / 1;
+	background-color: #CCCCCC;
 }
 
 #article3{
 	grid-area: 1 / 3;
+	background-color: #CCCCCC;
 }
 
 #article4{
 	grid-area: 2 / 3;
+	background-color: #E3E3E3;
 }
 
 #article5{
-	grid-area: 2 / 1;
+	grid-area: 2 / 1 / span 3 / span 1;
+	background-color: #E3E3E3;
 }
 
 #article6{
 	grid-area: 3 / 2 / span 2 / span 2;
+	background-color: #CCCCCC;
 }
 
 #AsidePicturesGrid{
+	margin-top: 30px;
 	display: grid;
 	grid-template-columns: auto auto auto auto;
-	grid-gap: 10px;
+	grid-gap: 60px;
 	
-	justify-content: space-between;
+	justify-content: center;
 }
 
 #PictureSolar, #PicturePhoenix, #PictureTripower{
@@ -97,4 +104,10 @@ nav ul li a {
 
 #PictureTripower{
 	grid-area: 1 / 3;
+}
+
+footer{
+	margin-top: 30px;
+	padding-bottom: 10px;
+	background-color: #8CFF9F;
 }
