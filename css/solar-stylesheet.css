@@ -3,7 +3,14 @@ body {
 	font-family: 'Notable', Arial, Helvetica, sans-serif;
 }
 
+#SolarLogo{
+	width : 200px;
+	height : 200px;
+	text-align: center;
+}
+
 header h1,h2{
+	clear: both;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -27,10 +34,22 @@ nav ul li a {
 	text-decoration:none;
 	color:#111111;
 }
+nav li.selected{
+	color: #606060
+}
+nav li a:hover{
+	text-decoration: underline;
+}
+
+video{
+	width: 100%;
+	height: auto;
+}
 
 .AsidePictures{
 	float: right;
 	top: 0;
+	text-align: center;
 }
 
 .flexParentAside{
@@ -94,31 +113,47 @@ nav ul li a {
 	justify-content: center;
 }
 
+#AsideTextGrid{
+	grid-area: 1 / 2;
+}
 #PictureSolar, #PicturePhoenix, #PictureTripower{
 	width : 200px;
 	height : 200px;
 }
 
 #PictureSolar{
-	grid-area: 1 / 1;
+	grid-area: 2 / 1;
 }
 
 #PicturePhoenix{
-	grid-area: 1 / 2;
+	grid-area: 2 / 2;
 }
 
 #PictureTripower{
-	grid-area: 1 / 3;
+	grid-area: 2 / 3;
 }
 
-.ContactForm{
-	text-align: center;
+.EUTable{
+	font-size: 80%;
+	border-collapse: collapse;
+	width: 70%;
 }
-
+table th,td {
+	border:1px solid #000000;
+	padding:8px;
+	text-align: left;
+}
+table th {
+	background-color: #FFF94D;
+}
+table td{
+	background-color: #BFF0FF
+}
 #FormContact{
 	padding: 15px;
-    width: 25%;
+    width: 50%;
 }
+
 input[type=submit]{
 	cursor: pointer;
 }
