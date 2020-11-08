@@ -1,6 +1,6 @@
+@import url(https://fonts.googleapis.com/css2?family=Notable&display=swap);
 body {
-	background-color: #FFC72B;
-	font-family: Notable;
+	font-family: 'Notable', Arial, Helvetica, sans-serif;
 }
 
 nav ul {
@@ -23,4 +23,8 @@ nav ul li:last-child {
 nav ul li a {
 	text-decoration:none;
 	color:#111111;
+}
+
+p {
+	
 }
