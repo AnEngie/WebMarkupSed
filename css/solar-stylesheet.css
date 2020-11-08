@@ -179,6 +179,7 @@ input{
 #message{
 	width: 100%;
 	box-sizing: border-box;
+	word-spacing: 0.5em;
 }
 
 legend{
@@ -194,7 +195,7 @@ legend{
     opacity: 0.5;
     z-index: 9999;
 	clear: both;
-	border-style: solid;
+	border-style: double;
 }
 
 #CookieText{
