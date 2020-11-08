@@ -196,6 +196,7 @@ legend{
     z-index: 9999;
 	clear: both;
 	border-style: double;
+	cursor: pointer;
 }
 
 #CookieText{
