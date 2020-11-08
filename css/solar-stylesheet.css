@@ -39,8 +39,6 @@ nav ul li a {
 }
 
 #grid-container{
-	background-color: #F8F;
-
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	grid-gap: 10px;
@@ -74,4 +72,29 @@ nav ul li a {
 
 #article6{
 	grid-area: 3 / 2 / span 2 / span 2;
+}
+
+#AsidePicturesGrid{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+	
+	justify-content: space-between;
+}
+
+#PictureSolar, #PicturePhoenix, #PictureTripower{
+	width : 200px;
+	height : 200px;
+}
+
+#PictureSolar{
+	grid-area: 1 / 1;
+}
+
+#PicturePhoenix{
+	grid-area: 1 / 2;
+}
+
+#PictureTripower{
+	grid-area: 1 / 3;
 }
