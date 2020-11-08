@@ -28,6 +28,38 @@ nav ul li a {
 	color:#111111;
 }
 
-.flexParent{
+.flexParentAside{
 	float: right;
+	
+}
+
+#PictureSunny, #PictureBattery, #PictureVictron{
+	width : 200px;
+	float : right;
+}
+
+#grid-container{
+	background-color: #F8F;
+
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+	
+}
+
+#grid-container > article{
+	text-align: center;
+	font-size: 15px;
+}
+
+#article1{
+	grid-area: 1 / 2 / span 1 / span 2;
+}
+
+#article2{
+	grid-area: 1 / 1;
+}
+
+#article3{
+	grid-area: 1 / 3;
 }
