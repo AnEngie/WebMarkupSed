@@ -24,34 +24,43 @@
 			</nav>
 		</header>
 		
-		<form id="FormContact" action="https://i-want-solar-energy.com/testform.php" method="post">
-			
-			<fieldset>
-				<legend>Contact us!</legend>
-					<label class="Labelcontact" for="name">Name</label>
-					<input type="text" id="name" name="name" placeholder="Full Name"> 
-			</section>
-		</article>
-		
-		<aside class="pictures">
+		<aside class="AsidePictures">
 			<section>
 				<a href="https://www.ikwilzonneenergie.nl/Victron-EasySolar-24V-3000W-70A-50-MPPT-Color-Control">
-				<img src="afbeeldingen/EasySolar.png" alt="Picture of an Easy Solar"/>
+				<img src="afbeeldingen/EasySolar.png" id="PictureSolar" alt="Picture of an Easy Solar"/>
 				</a>
 			</section>
 			
 			<section>
 				<a href="https://www.ikwilzonneenergie.nl/Victron-Energy-omvormer-smart-12V-2000W-230V">
-				<img src="afbeeldingen/Phoenix_Inverter.png" alt="Picture of a Phoenix Inverter"/>
+				<img src="afbeeldingen/Phoenix_Inverter.png" id="PicturePhoenix" alt="Picture of a Phoenix Inverter"/>
 				</a>
 			</section>
 			
 			<section>
 				<a href="https://www.ikwilzonneenergie.nl/SMA-Omvormer-STP-80-3AV-40">
-				<img src="afbeeldingen/Sunny-Tripower.png" alt="Picture of a Sunny-Tripower"/>
+				<img src="afbeeldingen/Sunny-Tripower.png" id="PictureTripower" alt="Picture of a Sunny-Tripower"/>
 				</a>
 			</section>
 		</aside>
+		
+	<section class="ContactForm">
+		<form id="FormContact" action="https://i-want-solar-energy.com/testform.php" method="post">
+			
+			<fieldset>
+				<legend>Contact us!</legend>
+				<label class="Labelcontact" for="name">Name</label>
+				<input type="text" id="name" name="name" placeholder="Gerd Bartos">
+				
+				<label class="Labelcontact" for="email">Email</label>
+				<input type="email" id="email" name="email" placeholder="Gerdbartos@gmail.com">
+				
+				<label class="Labelcontact" for="message">Your Message</label>
+				<textarea id="message" name="message" placeholder="Your message here"></textarea>
+				
+				<input type="submit" value="Send">
+			</fieldset>
+	</section>
 		
 		<section>
 			<footer id="CookieStatement">
