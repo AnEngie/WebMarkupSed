@@ -2,8 +2,8 @@
 
 body {
 	font-family: 'Notable', Arial, Helvetica, sans-serif;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
 	min-width:256px
 }
 
@@ -51,7 +51,7 @@ video{
 
 .flexParentArticle{
 	float: left;
-	width: 60%; 
+	width: 61%; 
 }
 
 .AsideFlex{
@@ -59,7 +59,7 @@ video{
 }
 
 #PictureSunny, #PictureBattery, #PictureVictron{
-	width : 200px;
+	width : 210px;
 	float: right;
 }
 
@@ -149,11 +149,20 @@ table th,td {
 	padding:8px;
 	text-align: left;
 }
-table th {
-	background-color: #FFF94D;
+th:first-child{
+	background-color: #FF0;
 }
+
+table th{
+	background-color: #F9FFCF;
+}
+
+td:nth-child(odd){
+	background-color: #FFF;
+}
+
 table td{
-	background-color: #BFF0FF
+	background-color: #CFF;
 }
 
 /* contact */
